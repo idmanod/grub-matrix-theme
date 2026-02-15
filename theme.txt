@@ -3,8 +3,6 @@
 
 # Global Properties
 title-text: ""
-desktop-image: "background.png"
-desktop-image-scale-method: "stretch"
 desktop-color: "#0a0a0a"
 terminal-font: "MesloLGM Nerd Font Mono Regular 20"
 terminal-left: "0"

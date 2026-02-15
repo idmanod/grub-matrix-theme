@@ -1,0 +1,77 @@
+# Matrix Hacker GRUB Theme
+# Matching the SDDM Matrix hacker login theme
+
+# Global Properties
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#0a0a0a"
+terminal-font: "MesloLGM Nerd Font Mono Regular 20"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Title label
++ label {
+    left = 50%-200
+    top = 18%
+    width = 400
+    align = "center"
+    text = "WELCOME TO THE CACHYOS"
+    font = "MesloLGM Nerd Font Mono Bold 32"
+    color = "#00ff00"
+}
+
+# Subtitle
++ label {
+    left = 50%-200
+    top = 24%
+    width = 400
+    align = "center"
+    text = "> select boot target_"
+    font = "MesloLGM Nerd Font Mono Regular 20"
+    color = "#006600"
+}
+
+# Boot menu
++ boot_menu {
+    left = 50%-280
+    top = 35%
+    width = 560
+    height = 40%
+    item_font = "MesloLGM Nerd Font Mono Regular 20"
+    item_color = "#006600"
+    selected_item_color = "#00ff00"
+    icon_width = 32
+    icon_height = 32
+    item_icon_space = 20
+    item_height = 40
+    item_padding = 8
+    item_spacing = 8
+    selected_item_pixmap_style = "select_*.png"
+}
+
+# Countdown timer
++ label {
+    top = 82%
+    left = 30%
+    width = 40%
+    align = "center"
+    id = "__timeout__"
+    text = "> auto-boot in %d seconds..."
+    font = "MesloLGM Nerd Font Mono Regular 20"
+    color = "#003300"
+}
+
+# Bottom decorative frame
++ label {
+    top = 92%
+    left = 25%
+    width = 50%
+    align = "center"
+    text = "[ TERMINAL v3.1.7 // BOOTLOADER ]"
+    font = "MesloLGM Nerd Font Mono Regular 20"
+    color = "#006600"
+}
